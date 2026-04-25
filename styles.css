@@ -93,26 +93,14 @@ main {
 }
 
 .hero {
-  position: relative;
-  width: min(100%, 560px);
+  display: flex;
+  justify-content: center;
   margin: 1rem 0;
-  margin-inline: auto;
-}
-
-.hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-          rgba(160,192,224,0.35),
-          rgba(160,192,224,0.6)
-  );
 }
 
 .hero img {
-  display: block;
   width: 100%;
-  filter: saturate(0.85) contrast(0.95);
+  max-width: 560px;
 }
 
 .card {

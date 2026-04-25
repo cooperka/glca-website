@@ -2,13 +2,14 @@
 
 https://geddeslake.org
 
-## Development instructions
+## Development
 
-1. Clone the source code using Git
-2. TBD
+1. Copy the project to your computer (download or use Git).
+1. Open `index.html` in a browser (or serve the folder locally with any static file server).
 
-## Production instructions
+## Deployment
 
-DNS is on Squarespace.
+This static site is served by GitHub Pages.
 
-1. TBD
+1. Commit changes to the `main` branch.
+1. Push changes to GitHub.

@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #A0C0E0; /* Old background color */
+  /*background: #6699CC; Old card color */
+  color: #1F2A33; /* Dark main text */
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  background: #003366; /* Old nav color */
+  /*background: #14386A; Frontsteps button */
+  /*background: #000062; Old font color */
+}
+
+.logo {
+  height: 2.8rem;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  color: #F2F7FB; /* Light nav text */
+}
+
+nav a.button {
+  background: #A74E32; /* Noticeable button */
+  color: white;
+  padding: 0.5rem 0.8rem;
+  margin: 0 1rem;
+  border-radius: 8px;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 560px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 1.2rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.bottom-logo {
+  width: 100%;
+  max-height: 10rem;
+  padding-top: 1.2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}

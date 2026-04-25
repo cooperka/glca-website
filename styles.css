@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  background: #A0C0E0; /* Old background color */
-  /*background: #6699CC; Old card color */
+  background: #A0C0E0; /* 2007 background color */
+  /*background: #6699CC; 2007 card color */
   color: #1F2A33; /* Dark main text */
 }
 
@@ -11,9 +11,9 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
-  background: #003366; /* Old nav color */
-  /*background: #14386A; Frontsteps button */
-  /*background: #000062; Old font color */
+  background: #003366; /* 2007 nav color */
+  /*background: #14386A; 2020 button color */
+  /*background: #000062; 2007 font color */
 }
 
 .logo {
@@ -54,7 +54,7 @@ main {
 }
 
 .card {
-  background: #ffffff;
+  background: #FFF;
   padding: 1.2rem;
   border-radius: 12px;
   margin-bottom: 1rem;
@@ -75,6 +75,8 @@ main {
 
 .gallery img {
   width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
   border-radius: 8px;
 }
 

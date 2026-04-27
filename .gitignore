@@ -1,2 +1,5 @@
 # IDEs
 .idea
+
+# OS junk
+*.DS_Store

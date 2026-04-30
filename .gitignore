@@ -4,3 +4,8 @@
 # Temp files
 *.DS_Store
 .wrangler/cache/
+
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example

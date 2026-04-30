@@ -1,0 +1,12 @@
+"$schema" = "./node_modules/wrangler/config-schema.json"
+name = "glca-website"
+compatibility_date = "2026-04-30"
+compatibility_flags = [ "nodejs_compat" ]
+
+[assets]
+# Cloudflare's web UI sets the name of the public directory. This setting is instead the project root.
+directory = "."
+not_found_handling = "404-page"
+
+[observability]
+enabled = true

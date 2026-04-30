@@ -6,11 +6,10 @@ name = "glca-website"
 compatibility_date = "2026-04-30"
 compatibility_flags = [ "nodejs_compat" ]
 
-main = "index.js"
+main = "functions/index.js"
 
 [assets]
-# Cloudflare's web UI sets the name of the public directory. This setting is instead the project root.
-directory = "."
+directory = "./public"
 binding = "ASSETS"
 not_found_handling = "404-page"
 

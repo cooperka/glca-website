@@ -9,8 +9,7 @@ compatibility_flags = [ "nodejs_compat" ]
 main = "index.js"
 
 [assets]
-# Cloudflare's web UI sets the name of the public directory. This setting is instead the project root.
-directory = "."
+directory = "./public"
 binding = "ASSETS"
 not_found_handling = "404-page"
 

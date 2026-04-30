@@ -13,4 +13,4 @@ https://geddeslake.org
 This static site is served by Cloudflare Pages.
 
 1. Commit changes to the `main` branch.
-1. Push changes to GitHub.
+1. Push changes to GitHub. It will automatically deploy to Cloudflare Pages within about a minute.

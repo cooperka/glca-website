@@ -1,5 +1,6 @@
 # IDEs
 .idea
 
-# OS junk
+# Temp files
 *.DS_Store
+.wrangler/cache/
